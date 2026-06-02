@@ -1,4 +1,4 @@
-# 🔴 Pokédex
+# 🔴 Pokedex
 
 A multi-page Pokédex application built as a refactoring project at WBS Coding School.
 
