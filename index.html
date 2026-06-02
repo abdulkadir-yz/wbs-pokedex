@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pokedex</title>
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+
+<body class="bg-gray-900 text-white min-h-screen">
+
+<!-- ── HEADER ── -->
+<header class="bg-green-100 px-6 py-4 flex justify-between items-center shadow-lg">
+  <h1 class="text-4xl text-amber-800 font-bold ">Pokedex</h1>
+  <a href="/journal.html"
+     class="bg-white text-red-600 font-bold px-4 py-2 rounded-lg hover:bg-gray-100">
+    ⭐ Journal
+  </a>
+</header>
+
+<!-- ── ANA LAYOUT: sidebar + grid ── -->
+<div class="flex">
+
+  <!-- ── SOL SIDEBAR: arama ── -->
+  <aside class="w-64 bg-gray-800 p-4 min-h-screen shrink-0">
+    <h2 class="text-gray-400 text-sm font-bold mb-3 uppercase tracking-wide">
+      Search
+    </h2>
+    <input
+            id="search-input"
+            type="text"
+            placeholder="Name or Number..."
+            class="w-full bg-gray-700 text-white placeholder-gray-400
+                 px-4 py-3 rounded-lg outline-none
+                 focus:ring-2 focus:ring-red-500"
+    />
+  </aside>
+
+  <!-- ── GRID: kartlar buraya gelecek ── -->
+  <main class="flex-1 p-6">
+    <div id="pokemon-grid"
+         class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+      <!-- JavaScript buraya kartları ekleyecek -->
+    </div>
+  </main>
+
+</div>
+
+<script type="module" src="/src/home.js"></script>
+</body>
+</html>

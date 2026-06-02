@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokemon Journal</title>
+    <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body class="bg-gray-900 text-white min-h-screen">
+
+<!-- ── HEADER ── -->
+<header class="bg-green-100 px-6 py-4 flex justify-between items-center shadow-lg">
+  <h1 class="text-4xl font-bold text-gray-900">Journal</h1>
+  <a href="/index.html"
+     class="bg-red-600 text-white font-bold px-4 py-2 rounded-lg hover:bg-red-700">
+    ← Back to Pokedex
+  </a>
+</header>
+
+<!-- ── MAIN CONTENT ── -->
+<main class="flex-1 p-6">
+    <div id="pokemon-grid"
+         class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+        <!-- JavaScript buraya kartları ekleyecek -->
+    </div>
+</main>
+
+<script type="module" src="/src/journal.js"></script>
+</body>
+</html>
