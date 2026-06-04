@@ -49,7 +49,7 @@ export function createPokemonCard(pokemon) {
                cursor-pointer select-none"
         data-fav-id="${pokemon.id}"
       >
-       <span calss="pointer-evets-none">⭐</span>
+       <span class="pointer-evets-none">⭐</span>
       </button>
 
       <!-- Pokémon resmi -->
